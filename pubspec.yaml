@@ -1,0 +1,122 @@
+name: mae_application
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #icons
+  cupertino_icons: ^1.0.2
+  #database
+  firebase_core:
+  #file storage
+  cloud_firestore:
+  #authentification
+  firebase_auth:
+  #data storage
+  firebase_storage:
+  #save data locally
+  get:
+  #get access to device's storage
+  get_storage:
+  #animated pictures
+  flare_flutter:
+  lottie:
+  #pick image from device
+  image_picker:
+  #save data locally
+  shared_preferences:
+  #makes widget slidable : on swipe we get more options
+  flutter_slidable: ^1.2.0
+  #custom animated alerts and information pop-ups
+  cool_alert:
+  #onboarding page slides
+  introduction_screen:
+  #text field for tags
+  textfield_tags:
+  #helps change the app's language
+  easy_localization:
+  #list tile
+  cupertino_list_tile:
+  #gives the passed time
+  timeago:
+  #to save sent picture in chat
+  uuid:
+  #focused drop menu
+  focused_menu:
+  #see image in full screen
+  full_screen_image_null_safe:
+  photo_view:
+  #to send email
+  url_launcher:
+  #needed to save picture to gallery
+  image_gallery_saver:
+  dio:
+  permission_handler:
+  #checks internet connectivity
+  connectivity_plus:
+  #notifications
+  firebase_messaging:
+  http:
+  flutter_local_notifications:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons:
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo-only.png"
+  adaptive_icon_backgound: "#ffffff"
+  adaptive_icon_foreground: "assets/logo_PlayStore.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+      - assets/
+      - assets/Background/
+      - assets/lottie/
+      - assets/locales/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

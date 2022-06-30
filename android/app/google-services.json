@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "588022555125",
+    "project_id": "mae-db",
+    "storage_bucket": "mae-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588022555125:android:7d0681dbe7ff3496f9c0bc",
+        "android_client_info": {
+          "package_name": "com.example.mae_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588022555125-1q5r4q7lqhus9s3o0i3nr64nu8sr80od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdd5JaGHUDyRIB45d8OZoKi4Z4ikQ0RlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588022555125-1q5r4q7lqhus9s3o0i3nr64nu8sr80od.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "588022555125-g5ne4rdk3tafpnfe84vvjludiqgdaors.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "tn.mae.maeApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588022555125:android:029a7fe76671a600f9c0bc",
+        "android_client_info": {
+          "package_name": "com.example.naan_bouk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588022555125-1q5r4q7lqhus9s3o0i3nr64nu8sr80od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdd5JaGHUDyRIB45d8OZoKi4Z4ikQ0RlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588022555125-1q5r4q7lqhus9s3o0i3nr64nu8sr80od.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "588022555125-g5ne4rdk3tafpnfe84vvjludiqgdaors.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "tn.mae.maeApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
